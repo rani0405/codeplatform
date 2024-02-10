@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+.box{
+    height: 100px;
+    /* width: 100%; */
+    /* border: 2px solid red; */
+}
+.box1{
+    height: 80px;
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1-1{
+    height: 80px;
+    width: 50%;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+.box1-3{
+    height: 80px;
+    width: 20%;
+    /* border: 2px solid rgb(184, 23, 159); */
+    padding: 9px 0px 0px 161px;
+}
+.box1-2{
+    height: 80px;
+    width: 30%;
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: flex;
+    padding: 9px 0px 0px 0px;
+}
+.box1-2 p{
+    font-size: 24px;
+    padding: 17px 0px 0px 0px;
+}
+
+.box1-1 ol{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 2%;
+    justify-content: flex-start;
+    /* margin-left: -164px; */
+    padding: 17px 0px 0px 0px;
+}
+
+.box1-1 ol li{
+    font-size: 23px;
+}
+.box1-4 {
+    height: 70px;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    padding: 9px 0px 0px 0px;
+    padding-left: 10px;
+}
+
+.box1-4 button{
+    height: 39px;
+    width: 50%;
+    border-radius: 0.3125rem;
+    background-color: black;
+    color: white;
+}
+.box7{
+    height: 200px;
+    width: 100%;
+    padding-top: 78px;
+ }
+ .box7 h1{
+    text-align: center;
+ }
+ .box7 p{
+    text-align: center;
+    font-size: 22px;
+ }
+ .box15{
+    /* border: 2px solid goldenrod; */
+    display: flex;
+    gap: 2%;
+    padding: 32px 185px 0px 227px;
+    transition: 1s;
+   
+}
+.box15-1{
+    /* height: 323px;
+    width: 25%; */
+    border: 2px solid #F2F2F2;
+    height: 322px;
+    width: 34%;
+    /* transition: 0.6 sec;
+    transform: rotate(60%); */
+box-shadow: 0px 0px 10px 3px;
+
+}
+.box15 :hover{
+transform: rotate(-3deg);
+z-index: 2;
+}
+.box15 img{
+    height: 240px;
+    width: 100%;
+}
+.box15 h1{
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.box16{
+    /* border: 2px solid goldenrod; */
+    display: flex;
+    gap: 2%;
+    padding: 32px 7px 0px 332px;
+    transition: 1s;
+   
+}
+.box16-1{
+    /* height: 323px;
+    width: 25%; */
+    border: 2px solid #F2F2F2;
+    height: 322px;
+    width: 34%;
+    /* transition: 0.6 sec;
+    transform: rotate(60%); */
+box-shadow: 0px 0px 10px 3px;
+
+}
+.box16 :hover{
+transform: rotate(-3deg);
+z-index: 2;
+}
+.box16 img{
+    height: 240px;
+    width: 100%;
+}
+.box16 h1{
+    text-transform: uppercase;
+    font-size: 21px;
+}
+/* @media  screen and (max-width:768) {
+    .box1{
+        width: 50%;
+    }
+    
+} */
